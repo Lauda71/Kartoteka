@@ -10,6 +10,11 @@ namespace Kartoteka
     {
         // для корректного изменения ширины главной формы
         static ControlArchive arch = new ControlArchive();
-        public static int archiveControlWidth = arch.Width;        
+        static ControlAddData add = new ControlAddData();
+        
+        
+        public static int 
+            archiveControlWidth = arch.Width,
+            addDataControlWidth = add.Width;        
     }
 }

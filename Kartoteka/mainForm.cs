@@ -107,7 +107,8 @@ namespace Kartoteka
 
                     // Добавить источники
                     case 1:
-
+                        panMain.Controls.Add(new ControlAddData());
+                        this.Width = 305 + StaticInfoClass.addDataControlWidth + 25;
                         break;
 
                     // Выгрузить материал
@@ -140,7 +141,13 @@ namespace Kartoteka
                     panMain.Controls[0].Location = new Point(-1, -1);
 
                 this.CenterToScreen();
-            }            
+            }
+
+            // для корректного отображения контролов
+            if (panMain.Controls.Count > 0)
+            {
+                panMain.Controls[0].Size = panMain.Size;
+            }
         }
         
         #endregion  

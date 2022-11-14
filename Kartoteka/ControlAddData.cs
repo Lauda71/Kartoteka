@@ -21,5 +21,24 @@ namespace Kartoteka
         {
             // okay...
         }
+
+        // добавление новых файлов
+        private void btnAddFiles_Click(object sender, EventArgs e)
+        {
+            openFD = new OpenFileDialog();
+            openFD.Filter = "Documents (*.doc, *.docx) | *.doc; *.docx";
+            openFD.Title = "Выбор файла с данными...";
+
+            if (openFD.ShowDialog(this) == DialogResult.OK)
+            {
+                // code...
+            }
+        }
+
+        private void panDragFiles_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+                e.Effect = DragDropEffects.Copy;
+        }
     }
 }
