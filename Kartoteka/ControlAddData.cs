@@ -16,5 +16,10 @@ namespace Kartoteka
         {
             InitializeComponent();
         }
+
+        private void ControlAddData_Load(object sender, EventArgs e)
+        {
+            // okay...
+        }
     }
 }

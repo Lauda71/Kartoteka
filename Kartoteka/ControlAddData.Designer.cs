@@ -40,6 +40,7 @@ namespace Kartoteka
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "ControlAddData";
             this.Size = new System.Drawing.Size(892, 723);
+            this.Load += new System.EventHandler(this.ControlAddData_Load);
             this.ResumeLayout(false);
 
         }
