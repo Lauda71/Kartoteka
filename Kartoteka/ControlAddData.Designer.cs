@@ -74,6 +74,7 @@ namespace Kartoteka
             this.panAddedFiles.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panAddedFiles.AutoScroll = true;
             this.panAddedFiles.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panAddedFiles.Location = new System.Drawing.Point(34, 83);
             this.panAddedFiles.Margin = new System.Windows.Forms.Padding(35, 10, 35, 10);

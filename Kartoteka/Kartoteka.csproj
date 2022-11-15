@@ -52,6 +52,12 @@
     <Compile Include="ControlAddData.Designer.cs">
       <DependentUpon>ControlAddData.cs</DependentUpon>
     </Compile>
+    <Compile Include="ControlAddedFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlAddedFile.Designer.cs">
+      <DependentUpon>ControlAddedFile.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBInteraction.cs" />
     <Compile Include="Form_Archive_AddWord.cs">
       <SubType>Form</SubType>
@@ -77,6 +83,9 @@
     <Compile Include="StaticInfoClass.cs" />
     <EmbeddedResource Include="ControlAddData.resx">
       <DependentUpon>ControlAddData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlAddedFile.resx">
+      <DependentUpon>ControlAddedFile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Archive_AddWord.resx">
       <DependentUpon>Form_Archive_AddWord.cs</DependentUpon>

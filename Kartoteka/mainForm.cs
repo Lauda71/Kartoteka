@@ -36,7 +36,7 @@ namespace Kartoteka
 
 
             SetToolTips();
-            
+            this.Location = new Point(this.Location.X - 400, this.Location.Y);
             Logs.RegularLog("Запуск программы.");
         }
 
@@ -140,7 +140,7 @@ namespace Kartoteka
                 if(panMain.Controls.Count>0)
                     panMain.Controls[0].Location = new Point(-1, -1);
 
-                this.CenterToScreen();
+                //this.CenterToScreen();
             }
 
             // для корректного отображения контролов

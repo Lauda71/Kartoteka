@@ -22,16 +22,36 @@ namespace Kartoteka
             // okay...
         }
 
+        List<string> 
+            filesPaths = new List<string>(),
+            filesNames = new List<string>();
+
         // добавление новых файлов
+        int controlsCount;
         private void btnAddFiles_Click(object sender, EventArgs e)
         {
             openFD = new OpenFileDialog();
             openFD.Filter = "Documents (*.doc, *.docx) | *.doc; *.docx";
             openFD.Title = "Выбор файла с данными...";
+            openFD.Multiselect = true;
 
             if (openFD.ShowDialog(this) == DialogResult.OK)
             {
-                // code...
+                foreach (string file in openFD.FileNames)
+                {
+                    // добавление в List 
+                    filesPaths.Add(file);   // имен файлов
+                    filesNames.Add(file.Substring(file.LastIndexOf('\\') + 1)); // путей файлов
+
+                    panAddedFiles.Controls.Add(new ControlAddedFile(filesNames[controlsCount]));
+                    // немного магии, чтобы контрол добавлялся в нужное место...
+                    if (controlsCount == 0)
+                        panAddedFiles.Controls[controlsCount].Location = new Point(2, 5);
+                    else
+                        panAddedFiles.Controls[controlsCount].Location = new Point(2, panAddedFiles.Controls[controlsCount - 1].Location.Y + 71);
+                    // конец магии
+                    controlsCount++;
+                }
             }
         }
 
