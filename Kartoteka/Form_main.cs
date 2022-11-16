@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Kartoteka
 {
-    public partial class mainForm : Form
+    public partial class Form_main : Form
     {
-        public mainForm()
+        public Form_main()
         {
             InitializeComponent();
             this.Width = 305;

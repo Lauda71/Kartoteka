@@ -59,6 +59,12 @@
       <DependentUpon>ControlAddedFile.cs</DependentUpon>
     </Compile>
     <Compile Include="DBInteraction.cs" />
+    <Compile Include="Form_AnalysisAddingData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AnalysisAddingData.Designer.cs">
+      <DependentUpon>Form_AnalysisAddingData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Archive_AddWord.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,11 +72,11 @@
       <DependentUpon>Form_Archive_AddWord.cs</DependentUpon>
     </Compile>
     <Compile Include="Logs.cs" />
-    <Compile Include="mainForm.cs">
+    <Compile Include="Form_main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mainForm.Designer.cs">
-      <DependentUpon>mainForm.cs</DependentUpon>
+    <Compile Include="Form_main.Designer.cs">
+      <DependentUpon>Form_main.cs</DependentUpon>
     </Compile>
     <Compile Include="ControlArchive.cs">
       <SubType>UserControl</SubType>
@@ -87,11 +93,14 @@
     <EmbeddedResource Include="ControlAddedFile.resx">
       <DependentUpon>ControlAddedFile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_AnalysisAddingData.resx">
+      <DependentUpon>Form_AnalysisAddingData.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Archive_AddWord.resx">
       <DependentUpon>Form_Archive_AddWord.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mainForm.resx">
-      <DependentUpon>mainForm.cs</DependentUpon>
+    <EmbeddedResource Include="Form_main.resx">
+      <DependentUpon>Form_main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlArchive.resx">
       <DependentUpon>ControlArchive.cs</DependentUpon>

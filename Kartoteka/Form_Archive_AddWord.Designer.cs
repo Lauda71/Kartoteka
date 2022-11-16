@@ -38,8 +38,6 @@ namespace Kartoteka
             this.button1 = new System.Windows.Forms.Button();
             this.btnAddWord = new System.Windows.Forms.Button();
             this.rtbAddWordExample = new System.Windows.Forms.RichTextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.labWordExamples = new System.Windows.Forms.Label();
             this.labAddWord = new System.Windows.Forms.Label();
             this.tbAddWord = new System.Windows.Forms.TextBox();
@@ -59,8 +57,6 @@ namespace Kartoteka
             this.gbAddWord.Controls.Add(this.button1);
             this.gbAddWord.Controls.Add(this.btnAddWord);
             this.gbAddWord.Controls.Add(this.rtbAddWordExample);
-            this.gbAddWord.Controls.Add(this.textBox3);
-            this.gbAddWord.Controls.Add(this.label1);
             this.gbAddWord.Controls.Add(this.labWordExamples);
             this.gbAddWord.Controls.Add(this.labAddWord);
             this.gbAddWord.Controls.Add(this.tbAddWord);
@@ -151,10 +147,10 @@ namespace Kartoteka
             this.btnAddWord.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAddWord.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnAddWord.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnAddWord.Location = new System.Drawing.Point(17, 793);
+            this.btnAddWord.Location = new System.Drawing.Point(13, 793);
             this.btnAddWord.Margin = new System.Windows.Forms.Padding(10);
             this.btnAddWord.Name = "btnAddWord";
-            this.btnAddWord.Size = new System.Drawing.Size(721, 67);
+            this.btnAddWord.Size = new System.Drawing.Size(725, 67);
             this.btnAddWord.TabIndex = 17;
             this.btnAddWord.Text = "Добавить";
             this.btnAddWord.UseVisualStyleBackColor = false;
@@ -168,32 +164,9 @@ namespace Kartoteka
             this.rtbAddWordExample.Margin = new System.Windows.Forms.Padding(10, 5, 10, 10);
             this.rtbAddWordExample.Name = "rtbAddWordExample";
             this.rtbAddWordExample.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.rtbAddWordExample.Size = new System.Drawing.Size(725, 361);
+            this.rtbAddWordExample.Size = new System.Drawing.Size(725, 623);
             this.rtbAddWordExample.TabIndex = 16;
             this.rtbAddWordExample.Text = "";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(13, 618);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(10, 5, 10, 10);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(726, 155);
-            this.textBox3.TabIndex = 15;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 586);
-            this.label1.Margin = new System.Windows.Forms.Padding(10, 5, 10, 5);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 22);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Заметка:";
             // 
             // labWordExamples
             // 
@@ -255,8 +228,6 @@ namespace Kartoteka
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnAddWord;
         private System.Windows.Forms.RichTextBox rtbAddWordExample;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labWordExamples;
         private System.Windows.Forms.Label labAddWord;
         private System.Windows.Forms.TextBox tbAddWord;
