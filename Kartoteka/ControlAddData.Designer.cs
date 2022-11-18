@@ -102,11 +102,13 @@ namespace Kartoteka
             this.panDragFiles.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panDragFiles.AutoScroll = true;
             this.panDragFiles.Location = new System.Drawing.Point(1, 24);
             this.panDragFiles.Margin = new System.Windows.Forms.Padding(0);
             this.panDragFiles.Name = "panDragFiles";
             this.panDragFiles.Size = new System.Drawing.Size(821, 214);
             this.panDragFiles.TabIndex = 0;
+            this.panDragFiles.DragDrop += new System.Windows.Forms.DragEventHandler(this.panDragFiles_DragDrop);
             this.panDragFiles.DragEnter += new System.Windows.Forms.DragEventHandler(this.panDragFiles_DragEnter);
             // 
             // btnStartExtraction

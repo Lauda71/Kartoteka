@@ -107,7 +107,7 @@ namespace Kartoteka
 
                     // Добавить источники
                     case 1:
-                        panMain.Controls.Add(new ControlAddData());
+                        panMain.Controls.Add(new ControlAddData(this));
                         this.Width = 305 + StaticInfoClass.addDataControlWidth + 25;
                         break;
 

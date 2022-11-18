@@ -69,6 +69,7 @@ namespace Kartoteka
             this.btnDelFile.TabIndex = 2;
             this.btnDelFile.Text = "X";
             this.btnDelFile.UseVisualStyleBackColor = true;
+            this.btnDelFile.Click += new System.EventHandler(this.btnDelFile_Click);
             // 
             // ControlAddedFile
             // 
