@@ -65,6 +65,12 @@
     <Compile Include="Form_AnalysisAddingData.Designer.cs">
       <DependentUpon>Form_AnalysisAddingData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_AnalysisDataFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AnalysisDataFiles.Designer.cs">
+      <DependentUpon>Form_AnalysisDataFiles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Archive_AddWord.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_AnalysisAddingData.resx">
       <DependentUpon>Form_AnalysisAddingData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_AnalysisDataFiles.resx">
+      <DependentUpon>Form_AnalysisDataFiles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Archive_AddWord.resx">
       <DependentUpon>Form_Archive_AddWord.cs</DependentUpon>

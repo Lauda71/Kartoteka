@@ -42,6 +42,13 @@ namespace Kartoteka
         int
             controlsCountPanAdd,
             controlsCountPanDrag;
+
+        private void btnStartExtraction_Click(object sender, EventArgs e)
+        {
+            Form_AnalysisDataFiles form = new Form_AnalysisDataFiles();
+            form.ShowDialog();
+        }
+
         private void btnAddFiles_Click(object sender, EventArgs e)
         {
             openFD = new OpenFileDialog();

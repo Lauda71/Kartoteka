@@ -53,7 +53,7 @@ namespace Kartoteka
             this.btnAddFiles.Location = new System.Drawing.Point(635, 18);
             this.btnAddFiles.Margin = new System.Windows.Forms.Padding(10, 10, 20, 10);
             this.btnAddFiles.Name = "btnAddFiles";
-            this.btnAddFiles.Size = new System.Drawing.Size(222, 45);
+            this.btnAddFiles.Size = new System.Drawing.Size(230, 45);
             this.btnAddFiles.TabIndex = 12;
             this.btnAddFiles.Text = "Обзор...";
             this.btnAddFiles.UseVisualStyleBackColor = false;
@@ -79,7 +79,7 @@ namespace Kartoteka
             this.panAddedFiles.Location = new System.Drawing.Point(34, 83);
             this.panAddedFiles.Margin = new System.Windows.Forms.Padding(35, 10, 35, 10);
             this.panAddedFiles.Name = "panAddedFiles";
-            this.panAddedFiles.Size = new System.Drawing.Size(823, 240);
+            this.panAddedFiles.Size = new System.Drawing.Size(831, 240);
             this.panAddedFiles.TabIndex = 13;
             // 
             // gbForFiles
@@ -91,7 +91,7 @@ namespace Kartoteka
             this.gbForFiles.Margin = new System.Windows.Forms.Padding(35, 25, 35, 35);
             this.gbForFiles.Name = "gbForFiles";
             this.gbForFiles.Padding = new System.Windows.Forms.Padding(0);
-            this.gbForFiles.Size = new System.Drawing.Size(823, 240);
+            this.gbForFiles.Size = new System.Drawing.Size(832, 240);
             this.gbForFiles.TabIndex = 14;
             this.gbForFiles.TabStop = false;
             this.gbForFiles.Text = "Или перетащите их в эту область:";
@@ -106,7 +106,7 @@ namespace Kartoteka
             this.panDragFiles.Location = new System.Drawing.Point(1, 24);
             this.panDragFiles.Margin = new System.Windows.Forms.Padding(0);
             this.panDragFiles.Name = "panDragFiles";
-            this.panDragFiles.Size = new System.Drawing.Size(821, 214);
+            this.panDragFiles.Size = new System.Drawing.Size(830, 214);
             this.panDragFiles.TabIndex = 0;
             this.panDragFiles.DragDrop += new System.Windows.Forms.DragEventHandler(this.panDragFiles_DragDrop);
             this.panDragFiles.DragEnter += new System.Windows.Forms.DragEventHandler(this.panDragFiles_DragEnter);
@@ -125,6 +125,7 @@ namespace Kartoteka
             this.btnStartExtraction.TabIndex = 15;
             this.btnStartExtraction.Text = "Начать извлечение данных";
             this.btnStartExtraction.UseVisualStyleBackColor = false;
+            this.btnStartExtraction.Click += new System.EventHandler(this.btnStartExtraction_Click);
             // 
             // btnDelFiles
             // 

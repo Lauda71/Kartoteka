@@ -68,8 +68,7 @@ namespace Kartoteka
             StaticInfoClass.SettingNewSerialNumbers(mySerialNumber);
 
             pan.Controls[mySerialNumber].Dispose();
-            pan.Update();            
-
+            pan.Update();
         }
     }
 }

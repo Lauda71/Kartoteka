@@ -33,9 +33,7 @@ namespace Kartoteka
                     controlsFiles[i].SetNewSerialNumber();
             }
             // удаление ???
-            //controlsFiles[delSerNum].del
+            controlsFiles.RemoveAt(delSerNum);
         }
-
-
     }
 }
